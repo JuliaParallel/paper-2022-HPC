@@ -1,4 +1,9 @@
+# Activate the current environment and load all packages
+using Pkg
+Pkg.activate(@__DIR__)
+
 using Plots
+
 # Weak scaling parallel efficiency data on Piz Daint
 
 # CUDA C
@@ -15,8 +20,13 @@ Teff_lo_jl = [0.9868,0.9718,0.9714,0.9710,0.9563,0.9559,0.9559,0.9547,0.9532,0.9
 Teff_hi_jl = [0.9870,0.9718,0.9715,0.9711,0.9564,0.9560,0.9560,0.9549,0.9538,0.9531,0.9523]
 σs_jl      = Teff_hi_jl .- Teff_lo_jl
 
-opts = (linewidth=3,markershape=:circle,markersize=4,framestyle=:box,xlabel="number of GPUs", ylabel="Parallel efficiency")
-plot(nprocs_C,Teff_C,ribbon=σs_C,fillalpha=.4,label="CUDA C";opts...)
-plot!(nprocs_jl,Teff_jl,ribbon=σs_jl,fillalpha=.4,label="Julia";opts...)
+xtick_powers = 0:1:12
+default(fontfamily="Computer Modern", linewidth=3,  markershape=:circle, markersize=4,
+        framestyle=:box, fillalpha=0.4)
+scalefontsizes(); scalefontsizes(1.4)
+plot(xlabel="Number of GPUs", ylabel="Parallel efficiency", xscale=:log,
+     xticks=(2 .^ xtick_powers, "\$2^{" .* string.(xtick_powers) .* "}\$"))
+plot!(nprocs_C, Teff_C, ribbon=σs_C, label="CUDA C")
+plot!(nprocs_jl, Teff_jl, ribbon=σs_jl, label="Julia")
 
 png("julia_c_gpu_par_eff.png")
