@@ -2,7 +2,7 @@
 using Pkg
 Pkg.activate(@__DIR__)
 
-ax_log = false # choose between log or linear x-axis scale
+ax_log = true # choose between log or linear x-axis scale
 
 using Plots
 
@@ -31,12 +31,13 @@ xtick_powers = 0:1:12
 plot(xlabel="Number of GPUs", ylabel="Parallel efficiency", xscale=:log,
      xticks=(2 .^ xtick_powers, "\$2^{" .* string.(xtick_powers) .* "}\$"))
 else
-xtick_lin = (1,512,1024,2048,4096,5120)
+# xtick_lin = (1,512,1024,2048,4096,5120)
+xtick_lin = (1,64,128,256,512,1024)
 plot(xlabel="Number of GPUs", ylabel="Parallel efficiency",
      xticks=(xtick_lin, string.(xtick_lin)))
 end
 
-plot!(nprocs_C, Teff_C, ribbon=σs_C, label="CUDA C")
+plot!(nprocs_C[1:end-3], Teff_C[1:end-3], ribbon=σs_C, label="CUDA C")
 plot!(nprocs_jl, Teff_jl, ribbon=σs_jl, label="Julia")
 
 ax_log ? png("julia_c_gpu_par_eff.png") : png("julia_c_gpu_par_eff_lin.png")
