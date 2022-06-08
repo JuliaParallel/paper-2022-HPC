@@ -2,7 +2,7 @@
 using Pkg
 Pkg.activate(@__DIR__)
 
-ax_log = true # choose between log or linear x-axis scale
+ax_log = false # choose between log or linear x-axis scale
 
 using Plots
 
