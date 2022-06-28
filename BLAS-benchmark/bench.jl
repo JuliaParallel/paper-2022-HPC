@@ -70,7 +70,7 @@ colors = Dict(
 
 @df df StatsPlots.plot(:Size, :GFLOPS;
     group=:Library,
-    xlabel="Size",
+    xlabel="Matrix size",
     ylabel="GFLOPS",
     xscale=:log10,
     color=[colors[i] for i in :Library],
@@ -79,6 +79,6 @@ colors = Dict(
     xlim=(10,10_000),
     marker=false
 )
-fname = "results_gpu-0016_40"
+# fname = "results_gpu-0016_40"
 savefig("$fname.png")
 savefig("$fname.svg")
