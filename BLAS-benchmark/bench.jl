@@ -9,6 +9,7 @@
 #=
 ml r
 ml lang/JuliaHPC/1.7.2-fosscuda-2020b-linux-x86_64
+export JULIA_EXLUSIVE=1
 time srun julia --project=. -t 40 $(scontrol show job $SLURM_JOBID | awk -F= '/Command=/{print $2}')
 exit
 # =#
