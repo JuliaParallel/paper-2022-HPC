@@ -1,4 +1,6 @@
-![octavian bench](results_gpu-0016_40.svg "Octavian Benchmark")
+![octavian bench](results_gpu-0016_20.svg "Octavian Benchmark")
+
+(Noctua 1, single-socket, i.e. 20 threads.)
 
 ## Reproducibility
 
