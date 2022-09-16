@@ -66,6 +66,21 @@ The subfolders of this repository contain `README.md` files with instructions
 to reproduce the numerical experiments, including postprocessing.
 
 
+## Authors
+* [Valentin Churavy](https://github.com/vchuravy), Massachusetts Institute of Technology (MIT), US
+* [William F Godoy](https://www.ornl.gov/staff-profile/william-f-godoy), Oak Ridge National Laboratory (ORNL), US
+* [Carsten Bauer](http://carstenbauer.eu/), University of Paderborn, Germany
+* [Hendrik Ranocha](https://ranocha.de), University of Hamburg, Germany
+* [Michael Schlottke-Lakemper](https://lakemper.eu), University of Stuttgart, Germany
+* [Ludovic Räss](https://github.com/luraess), ETH Zürich, Switzerland
+* [Johannes Blaschke](https://www.nersc.gov/about/nersc-staff/data-science-engagement-group/johannes-blaschke/), National Energy Research Scientific Computing Center (NERSC), US
+* [Mosé Giordano](https://giordano.github.io), University College London (UCL), UK
+* [Erik Schnetter](https://perimeterinstitute.ca/people/erik-schnetter), Perimeter Institute, Canada
+* [Samuel Omlin](https://github.com/omlins), Swiss National Supercomputing Centre (CSCS), Switzerland
+* [Jeffrey S Vetter](https://www.ornl.gov/staff-profile/jeffrey-s-vetter), ORNL, US
+* [Alan Edelman](https://math.mit.edu/~edelman/), MIT, US
+
+
 ## Disclaimer
 
 Everything is provided as is and without warranty. Use at your own risk!
