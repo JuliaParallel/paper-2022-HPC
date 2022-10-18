@@ -71,7 +71,7 @@ to reproduce the numerical experiments, including postprocessing.
 * [William F Godoy](https://www.ornl.gov/staff-profile/william-f-godoy), Oak Ridge National Laboratory (ORNL), US
 * [Carsten Bauer](http://carstenbauer.eu/), University of Paderborn, Germany
 * [Hendrik Ranocha](https://ranocha.de), University of Hamburg, Germany
-* [Michael Schlottke-Lakemper](https://lakemper.eu), University of Stuttgart, Germany
+* [Michael Schlottke-Lakemper](https://lakemper.eu), RWTH Aachen University, Germany
 * [Ludovic Räss](https://github.com/luraess), ETH Zürich, Switzerland
 * [Johannes Blaschke](https://www.nersc.gov/about/nersc-staff/data-science-engagement-group/johannes-blaschke/), National Energy Research Scientific Computing Center (NERSC), US
 * [Mosé Giordano](https://giordano.github.io), University College London (UCL), UK
