@@ -1,13 +1,13 @@
 # Bridging HPC Communities Through the Julia Programming Language
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://doi.org/TODO)
+[![DOI](https://zenodo.org/badge/465026971.svg)](https://zenodo.org/badge/latestdoi/465026971)
 
 This repository contains information and code to reproduce the results presented in the
 article
 ```bibtex
 @online{churavy2022bridging,
-  title={Bridging {HPC} Communities Through the {J}ulia Programming Language},
+  title={Bridging {HPC} Communities through the {J}ulia Programming Language},
   author={Churavy, Valentin and Godoy, William F and Bauer, Carsten and
           Ranocha, Hendrik and Schlottke-Lakemper, Michael and R{\"a}ss, Ludovic
           and Blaschke, Johannes and Giordano, Mos{\'e} and
@@ -34,7 +34,7 @@ use the implementations provided here, please **also** cite this repository as
           Edelman, Alan},
   year={2022},
   howpublished={\url{https://github.com/JuliaParallel/paper-2022-HPC}},
-  doi={TODO}
+  doi={10.5281/zenodo.7236017}
 }
 ```
 
