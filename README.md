@@ -1,4 +1,4 @@
-# Bridging HPC Communities Through the Julia Programming Language
+# Bridging HPC Communities through the Julia Programming Language
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/465026971.svg)](https://zenodo.org/badge/latestdoi/465026971)
