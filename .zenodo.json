@@ -1,0 +1,68 @@
+{
+    "license": "MIT",
+    "title": "Reproducibility repository for Bridging HPC Communities through the Julia Programming Language",
+    "upload_type": "software",
+    "creators": [
+        {
+            "affiliation": "Massachussetts Institute of Technology, USA",
+            "name": "Churavy, Valentin",
+            "orcid": "0000-0002-9033-165X"
+        },
+        {
+            "affiliation": "Oak Ridge National Laboratory, USA",
+            "name": "Godoy, William F",
+            "orcid": "0000-0002-2590-5178"
+        },
+        {
+            "affiliation": "Paderborn Center for Parallel Computing, Paderborn University, Germany",
+            "name": "Bauer, Carsten",
+            "orcid": "0000-0001-6719-0978"
+        },
+        {
+            "affiliation": "Department of Mathematics, University of Hamburg, Germany",
+            "name": "Ranocha, Hendrik",
+            "orcid": "0000-0002-3456-2277"
+        },
+        {
+            "affiliation": "Applied and Computational Mathematics, RWTH Aachen University, Germany",
+            "name": "Schlottke-Lakemper, Michael",
+            "orcid": "0000-0002-3195-2536"
+        },
+        {
+            "affiliation": "Laboratory of Hydraulics, Hydrology and Glaciology (VAW), ETH Zurich, Switzerland",
+            "name": "Räss, Ludovic",
+            "orcid": "0000-0002-1136-899X"
+        },
+        {
+            "affiliation": "National Energy Research Scientific Computing Center, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA 94720, USA",
+            "name": "Blaschke, Johannes",
+            "orcid": "0000-0002-6024-3990"
+        },
+        {
+            "affiliation": "Centre for Advanced Research Computing, University College London, Gower Street, London, WC1E 6BT, United Kingdom",
+            "name": "Giordano, Mosé",
+            "orcid": "0000-0002-7218-2873"
+        },
+        {
+            "affiliation": "Perimeter Institute, 31 Caroline St. N., Waterloo, ON, Canada N2L 2Y5",
+            "name": "Schnetter, Erik",
+            "orcid": "0000-0002-4518-9017"
+        },
+        {
+            "affiliation": "Swiss National Supercomputing Centre (CSCS), ETH Zurich, Switzerland",
+            "name": "Omlin, Samuel",
+            "orcid": "0000-0001-8969-5619"
+        },
+        {
+            "affiliation": "Oak Ridge National Laboratory, USA",
+            "name": "Vetter, Jeffrey S",
+            "orcid": "0000-0002-2449-6720"
+        },
+        {
+            "affiliation": "Massachussetts Institute of Technology, USA",
+            "name": "Edelman, Alan",
+            "orcid": "0000-0001-7676-3133"
+        }
+    ],
+    "access_right": "open"
+}
