@@ -69,7 +69,7 @@ to reproduce the numerical experiments, including postprocessing.
 ## Authors
 * [Valentin Churavy](https://github.com/vchuravy), Massachusetts Institute of Technology (MIT), US
 * [William F Godoy](https://www.ornl.gov/staff-profile/william-f-godoy), Oak Ridge National Laboratory (ORNL), US
-* [Carsten Bauer](http://carstenbauer.eu/), University of Paderborn, Germany
+* [Carsten Bauer](http://carstenbauer.eu/), Paderborn Center for Parallel Computing (PC2), Germany
 * [Hendrik Ranocha](https://ranocha.de), University of Hamburg, Germany
 * [Michael Schlottke-Lakemper](https://lakemper.eu), RWTH Aachen University, Germany
 * [Ludovic Räss](https://github.com/luraess), ETH Zürich, Switzerland
