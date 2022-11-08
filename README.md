@@ -14,10 +14,10 @@ article
           Schnetter, Erik and Omlin, Samuel and Vetter, Jeffrey S and
           Edelman, Alan},
   year={2022},
-  eprint={TODO},
+  eprint={2211.02740},
   eprinttype={arxiv},
-  eprintclass={TODO},
-  doi={TODO}
+  eprintclass={cs.DC},
+  doi={10.48550/arXiv.2211.02740}
 }
 ```
 
