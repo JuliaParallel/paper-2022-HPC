@@ -3,8 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7236016.svg)](https://doi.org/10.5281/zenodo.7236016)
 
-This repository contains information and code to reproduce the results presented in the
-article
+This repository contains information and code to reproduce the results presented in [the
+article](https://arxiv.org/abs/2211.02740)
 ```bibtex
 @online{churavy2022bridging,
   title={Bridging {HPC} Communities through the {J}ulia Programming Language},
@@ -21,7 +21,7 @@ article
 }
 ```
 
-If you find these results useful, please cite the article mentioned above. If you
+If you find these results useful, please cite [the article](https://arxiv.org/abs/2211.02740) mentioned above. If you
 use the implementations provided here, please **also** cite this repository as
 ```bibtex
 @misc{churavy2022bridgingRepro,
