@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7236016.svg)](https://doi.org/10.5281/zenodo.7236016)
+[![arXiv:2211.02740](https://img.shields.io/badge/PDF-arXiv:2211.02740-yellow)](https://arxiv.org/pdf/2211.02740)
 
 This repository contains information and code to reproduce the results presented in [the
 article](https://arxiv.org/abs/2211.02740)
