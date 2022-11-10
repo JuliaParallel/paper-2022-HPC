@@ -41,3 +41,4 @@ plot!(nprocs_C[1:end-3], Teff_C[1:end-3], ribbon=σs_C, label="CUDA C")
 plot!(nprocs_jl, Teff_jl, ribbon=σs_jl, label="Julia")
 
 ax_log ? png("julia_c_gpu_par_eff.png") : png("julia_c_gpu_par_eff_lin.png")
+ax_log ? savefig("julia_c_gpu_par_eff.pdf") : savefig("julia_c_gpu_par_eff_lin.pdf")
